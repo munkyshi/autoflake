@@ -17,7 +17,7 @@ def version():
 
 with open('README.rst') as readme:
     setuptools.setup(
-        name='autoflake-frozne',
+        name='autoflake-frozen',
         version=version(),
         description='Removes unused imports and unused variables',
         long_description=readme.read(),
@@ -31,7 +31,7 @@ with open('README.rst') as readme:
                      'Programming Language :: Python :: 3',
                      'Topic :: Software Development :: Quality Assurance'],
         keywords='clean,fix,automatic,unused,import',
-        py_modules=['autoflake'],
+        py_modules=['autoflake-frozen'],
         entry_points={
             'console_scripts': ['autoflake-frozen = autoflake:main']},
         install_requires=['pyflakes>=1.1.0'],
