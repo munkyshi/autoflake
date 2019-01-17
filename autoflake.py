@@ -43,7 +43,7 @@ import pyflakes.messages
 import pyflakes.reporter
 
 
-__version__ = '1.3-munkyshi'
+__version__ = '1.3.dev0'
 
 
 ATOMS = frozenset([tokenize.NAME, tokenize.NUMBER, tokenize.STRING])
